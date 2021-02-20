@@ -1,0 +1,127 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4293,        117]
+NotebookOptionsPosition[      3955,        102]
+NotebookOutlinePosition[      4340,        119]
+CellTagsIndexPosition[      4297,        116]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"U", "\[Equal]", 
+     RowBox[{
+      RowBox[{"r", "*", "I1"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M12", "*", "I2"}]}]}], "&&",
+     " ", 
+    RowBox[{"(*", 
+     RowBox[{
+     "Loop", " ", "current", " ", "equation", " ", "of", " ", "WPT", " ", 
+      "system"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M12", "*", "I1"}], "+", 
+      RowBox[{"r", "*", "I2"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M23", "*", "I3"}]}]}], "&&",
+     "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M23", "*", "I2"}], "+", 
+      RowBox[{"r", "*", "I3"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M34", "*", "I4"}]}]}], "&&",
+     "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M34", "*", "I3"}], "+", 
+      RowBox[{"r", "*", "I4"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M45", "*", "I5"}]}]}], "&&",
+     "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M45", "*", "I4"}], "+", 
+      RowBox[{"r", "*", "I5"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M56", "*", "I6"}]}]}], "&&",
+     "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M56", "*", "I5"}], "+", 
+      RowBox[{"r", "*", "I6"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M67", "*", "I7"}]}]}], "&&",
+     "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M67", "*", "I6"}], "+", 
+      RowBox[{"r", "*", "I7"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M78", "*", "I8"}]}]}], "&&",
+     "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M78", "*", "I7"}], "+", 
+      RowBox[{"r", "*", "I8"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M89", "*", "I9"}]}]}], "&&",
+     "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M89", "*", "I8"}], "+", 
+      RowBox[{"r", "*", "I9"}], "+", 
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M90", "*", "I10"}]}]}], 
+    "&&", "\[IndentingNewLine]", 
+    RowBox[{"0", "==", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", "*", "\[Omega]", "*", "M90", "*", "I9"}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"r", "+", "R"}], ")"}], "*", "I10"}]}]}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "I1", ",", "I2", ",", "I3", ",", "I4", ",", "I5", ",", "I6", ",", "I7", 
+     ",", "I8", ",", "I9", ",", "I10"}], "}"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Set", " ", "current", " ", "variables", " ", "as", " ", "solution", " ", 
+     "variables"}], "*)"}]}]}]], "Input",
+ CellChangeTimes->{{3.822772643105369*^9, 3.822772645255361*^9}, {
+   3.8227726986687016`*^9, 3.8227727177185297`*^9}, 3.8227730393117485`*^9, {
+   3.8227731012998037`*^9, 3.822773109865389*^9}, 3.82277319561337*^9, {
+   3.822773248896591*^9, 
+   3.8227732657721057`*^9}},ExpressionUUID->"523f94f1-461b-4770-9730-\
+b48b30bfb212"]
+},
+WindowSize->{1904, 997},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>1.4 Inherited,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (2019\:5e745\:670818\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3393, 80, 316, "Input",ExpressionUUID->"523f94f1-461b-4770-9730-b48b30bfb212"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
